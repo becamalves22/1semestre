@@ -1,0 +1,16 @@
+.imagem{
+    background: url(uninter.png);
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+
+.imagem:hover{
+    background-color: blue;
+    
+}
+
+.imagem:active{
+    background-position: 50px 50px;
+}
